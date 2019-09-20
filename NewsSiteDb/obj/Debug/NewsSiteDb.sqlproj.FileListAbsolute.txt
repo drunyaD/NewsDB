@@ -1,0 +1,10 @@
+C:\Users\Andrii_Shelkovoi\source\repos\NewsSiteDb\NewsSiteDb\bin\Debug\NewsSiteDb.dacpac
+C:\Users\Andrii_Shelkovoi\source\repos\NewsSiteDb\NewsSiteDb\bin\Debug\NewsSiteDb.dll
+C:\Users\Andrii_Shelkovoi\source\repos\NewsSiteDb\NewsSiteDb\bin\Debug\NewsSiteDb.pdb
+C:\Users\Andrii_Shelkovoi\source\repos\NewsSiteDb\NewsSiteDb\obj\Debug\NewsSiteDb.sqlprojAssemblyReference.cache
+C:\Users\Andrii_Shelkovoi\source\repos\NewsSiteDb\NewsSiteDb\obj\Debug\Model.xml
+C:\Users\Andrii_Shelkovoi\source\repos\NewsSiteDb\NewsSiteDb\obj\Debug\refactor.xml
+C:\Users\Andrii_Shelkovoi\source\repos\NewsSiteDb\NewsSiteDb\obj\Debug\postdeploy.sql
+C:\Users\Andrii_Shelkovoi\source\repos\NewsSiteDb\NewsSiteDb\obj\Debug\predeploy.sql
+C:\Users\Andrii_Shelkovoi\source\repos\NewsSiteDb\NewsSiteDb\obj\Debug\NewsSiteDb.dll
+C:\Users\Andrii_Shelkovoi\source\repos\NewsSiteDb\NewsSiteDb\obj\Debug\NewsSiteDb.pdb

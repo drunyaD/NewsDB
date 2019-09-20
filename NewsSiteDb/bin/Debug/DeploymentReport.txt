@@ -1,0 +1,31 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Headings] (Table)
+       [dbo].[News] (Table)
+       [dbo].[News_Reviews] (Table)
+       [dbo].[NewsTags] (Table)
+       [dbo].[NewsTags_News] (Table)
+       [dbo].[Reviews] (Table)
+       [dbo].[ReviewsTags] (Table)
+       [dbo].[ReviewsTags_Reviews] (Table)
+       [dbo].[FK_Headings_ToHeadings] (Foreign Key)
+       [dbo].[FK_News_ToHeadings] (Foreign Key)
+       [dbo].[FK_NewsReviews_ToNews] (Foreign Key)
+       [dbo].[FK_NewsReviews_ToReviews] (Foreign Key)
+       [dbo].[FK_NewsTags_News_ToNewsTags] (Foreign Key)
+       [dbo].[FK_NewsTags_News_ToNews] (Foreign Key)
+       [dbo].[FK_Reviews_ToHeadings] (Foreign Key)
+       [dbo].[FK_ReviewsTags_Reviews_ToReviewsTags] (Foreign Key)
+       [dbo].[FK_ReviewsTags_Reviews_ToReviews] (Foreign Key)
+
+** Supporting actions

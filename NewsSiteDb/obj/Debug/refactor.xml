@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0">
+  <Operation Name="Rename Refactor" Key="13b3f5f3-344a-4fc0-a4bb-d313f530c954" ChangeDateTime="09/17/2019 10:55:49" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[FK_Headings_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Headings]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Headings_ToHeadings]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c6ab97a0-de4d-4c54-ad41-5208541ac4d1" ChangeDateTime="09/17/2019 12:18:17" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Headings].[ParentHeading]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Headings]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ParentHeadingId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="01906019-bf6a-4eb4-9535-eea733497e93" ChangeDateTime="09/17/2019 12:19:07" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[News].[Heading]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[News]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="HeadingId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3daf4a1a-211f-455a-a962-aeb8ab5de39e" ChangeDateTime="09/17/2019 12:38:09" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[News_Reviews].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[News_Reviews]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="NewsId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="dd6b91ce-bdaf-4bd3-b430-8641045b47de" ChangeDateTime="09/18/2019 12:33:55" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[NewsTags_News].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[NewsTags_News]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="NewsTagId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="577f1fe9-2d03-4bd6-a85e-9c440656438c" ChangeDateTime="09/18/2019 12:37:49" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[ReviewsTags_Reviews].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ReviewsTags_Reviews]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ReviewTagId" />
+  </Operation>
+</Operations>
